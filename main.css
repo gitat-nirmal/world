@@ -1,0 +1,41 @@
+body{
+    background-color: rgba(71, 71, 237, 0.585);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 5px 0px 5px;
+}
+.profile{
+    height: 110px;
+    width: 120px;
+    border-radius: 50%;
+}
+.information{
+    text-align: center;
+}
+.information h2{
+    color: whitesmoke;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+.information p{
+    color: white;
+    margin-top: 1px;
+
+}
+section h1,footer h1{
+    color: green;
+}
+section p{
+    text-align: justify;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
